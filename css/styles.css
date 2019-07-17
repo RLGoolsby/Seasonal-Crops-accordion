@@ -48,7 +48,7 @@ h4{
 ul {
     list-style: none;
     padding: 0;
-
+}
     .inner {
         padding-left: 1em;
         overflow: hidden;
@@ -61,7 +61,7 @@ ul {
 
     li {
         margin: .5em 0;
-
+}
         a.toggle {
             width: 100%;
             display: block;
