@@ -1,5 +1,5 @@
-('.toggle').click(function(e) {
-  	e.preventDefault();
+('.toggle').click(function() {
+
 
     var $this = $(this);
 
