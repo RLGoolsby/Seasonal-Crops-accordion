@@ -1,4 +1,4 @@
-$('.toggle').click(function(e) {
+$('a.toggle').click(function(e) {
   	e.preventDefault();
 
     var $this = $(this);
