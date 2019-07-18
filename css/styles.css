@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,400,600');
 body {
-    width: 80%;
-    min-width: 300px;
-    max-width: 400px;
+    max-width: 1400px;
     margin: 1.5em auto;
     color: #333;
 }
@@ -15,7 +13,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-
+    margin: 5px auto;
 }
 
 p {
@@ -25,14 +23,6 @@ p {
 
 .description {
   margin: 1em auto 2.25em;
-}
-
-body {
-    width: 40%;
-    min-width: 300px;
-    max-width: 400px;
-    margin: 1.5em auto;
-    color: #333;
 }
 
 h1 {
@@ -53,7 +43,7 @@ ul {
         padding-left: 1em;
         overflow: hidden;
         display: none;
-
+}
         &.show {
           /*display: block;*/
         }
@@ -70,10 +60,9 @@ ul {
             padding: .75em;
             border-radius: 0.15em;
             transition: background .3s ease;
-
+}
             &:hover {
                 background: rgba(0, 0, 0, 0.9);
             }
         }
-    }
-}
+  }
