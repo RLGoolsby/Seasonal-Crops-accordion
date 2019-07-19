@@ -68,5 +68,24 @@ ul {
             &:hover {
                 background: rgba(0, 0, 0, 0.9);
             }
+            .fas.fa-caret-right{
+              font-style: normal;
+              font-weight: normal;
+              padding-right: 5px;
+              cursor: pointer;
+            }
+            .hide-right-caret{/*** JS  class  **/
+              display: none;
+            }
+            .hide-down-caret{
+              display: none;
+            }
+
+            .show-down-caret{/**  JS class **/
+              display:inline;
+            }
+            .visible{
+              display: block;
+            }
         }
   }

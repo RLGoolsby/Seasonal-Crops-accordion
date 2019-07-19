@@ -13,3 +13,13 @@ $('.toggle').click(function() {
         $this.next().slideToggle(350);
     }
 });
+
+var tada = document.getElementsByClassName("toggle");
+
+for(var i = 0; i < tada.length; i++){
+   tada[i].addEventListener("click", function(){
+    this.nextElementSibling.classList.toggle("visible");
+    this.firstElementChild.classList.toggle("hide-right-caret");
+    this.lastElementChild.classList.toggle("show-down-caret");
+  });
+}
