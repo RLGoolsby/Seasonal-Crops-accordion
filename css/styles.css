@@ -74,15 +74,5 @@ ul {
               padding-right: 5px;
               cursor: pointer;
             }
-            .hide-right-caret{/*** JS  class  **/
-              display: none;
-            }
-
-            .show-down-caret{/**  JS class **/
-              display:inline;
-            }
-            .visible{
-              display: block;
-            }
         }
   }
