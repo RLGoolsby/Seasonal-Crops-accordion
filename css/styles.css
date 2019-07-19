@@ -68,12 +68,6 @@ ul {
             &:hover {
                 background: rgba(0, 0, 0, 0.9);
             }
-            .fas.fa-caret-right{
-              display:block;
-              cursor: pointer;
-            }
-            .fas.fa-caret-down{
-              display:none;
-            }
+          
         }
   }
