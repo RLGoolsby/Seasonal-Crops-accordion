@@ -69,10 +69,11 @@ ul {
                 background: rgba(0, 0, 0, 0.9);
             }
             .fas.fa-caret-right{
-              font-style: normal;
-              font-weight: normal;
-              padding-right: 5px;
+              display:block;
               cursor: pointer;
+            }
+            .fas.fa-caret-down{
+              display:none;
             }
         }
   }
