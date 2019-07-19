@@ -1,5 +1,5 @@
 $('.toggle').click(function() {
-  $(this).find(i).toggleClass('fas fa-caret-right fas fa-caret-down');
+  // $(this).find(i).toggleClass('fas fa-caret-right fas fa-caret-down');
 
     var $this = $(this);
 
