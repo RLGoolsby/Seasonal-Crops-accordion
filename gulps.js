@@ -2,7 +2,7 @@ gulp.task('browserSync', function() {
 
   // Browser sync config
   browserSync({
-      proxy: 'localhost:3000'
+      proxy: 'localhost:3001'
   });
 
 });
