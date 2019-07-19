@@ -77,9 +77,6 @@ ul {
             .hide-right-caret{/*** JS  class  **/
               display: none;
             }
-            .hide-down-caret{
-              display: none;
-            }
 
             .show-down-caret{/**  JS class **/
               display:inline;
