@@ -74,8 +74,8 @@ ul {
   	           float:right;
   	            font-size: 30px;
               }
-              .gray{
-                background-color: lightgrey;
+          #gray{
+                background: lightgrey;
               }
         }
   }
