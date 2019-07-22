@@ -75,7 +75,7 @@ ul {
   	            font-size: 30px;
               }
           #gray{
-                background: lightgrey;
-              }
+            background: rgba(0,0,0,0.78);
+          }
         }
   }
