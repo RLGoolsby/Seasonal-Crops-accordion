@@ -64,6 +64,8 @@ ul {
             padding: .75em;
             border-radius: 0.15em;
             transition: background .3s ease;
+            font-weight: 700;
+            font-size: larger;
 }
             &:hover {
                 background: rgba(0, 0, 0, 0.9);
@@ -71,6 +73,9 @@ ul {
             i.fa.fa-angle-up, i.fa.fa-angle-down{
   	           float:right;
   	            font-size: 30px;
+              }
+              .gray{
+                background-color: lightgrey;
               }
         }
   }
