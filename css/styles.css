@@ -70,7 +70,7 @@ ul {
             &:hover {
                 background: rgba(0, 0, 0, 0.9);
             }
-            i.fa.fa-angle-down, i.fa.fa-angle-up{
+            i.fa.fa-angle-up, i.fa.fa-angle-down{
   	           float:right;
   	            font-size: 30px;
               }
