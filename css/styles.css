@@ -51,7 +51,7 @@ ul {
         &.show {
           /*display: block;*/
         }
-    }
+
 
     li {
         margin: .5em 0;
@@ -77,5 +77,3 @@ ul {
           #gray{
             background: rgba(93, 96, 99);
           }
-        }
-  }
