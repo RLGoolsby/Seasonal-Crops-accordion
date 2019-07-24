@@ -10,7 +10,7 @@ $('.toggle').click(function() {
     } else {
         $this.parent().parent().find('li .inner').removeClass('show');
         $this.parent().parent().find('li .inner').slideUp(350);
-        //$(".toggle i").attr("class", "fas fa-plus");
+        $("i").attr("class", "fas fa-plus");
         $this.next().toggleClass('show');
         $this.next().slideToggle(350);
         $(this).children().toggleClass("fas fa-plus fas fa-minus");
