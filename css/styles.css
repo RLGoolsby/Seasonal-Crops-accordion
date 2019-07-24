@@ -70,9 +70,10 @@ ul {
             &:hover {
                 background: rgba(0, 0, 0, 0.9);
             }
-            i.fa.fa-angle-up, i.fa.fa-angle-down{
-  	           float:right;
-  	            font-size: 30px;
+            i.fas.fa-plus, i.fas.fa-minus{
+  	           float:left;
+  	           font-size: 30px;
+               color: white;
               }
           #gray{
             background: rgba(93, 96, 99);
