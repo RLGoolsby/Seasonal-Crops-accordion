@@ -17,11 +17,3 @@ $('.toggle').click(function() {
 
     }
 });
-
-$('.inner').click(function()
-if $('.inner').next().hasClass('show')){
-$this.next().removeClass('show');
-$this.next().slideUp(350);
-$(this).children().toggleClass("fas fa-plus fas fa-minus");
-}
-});
