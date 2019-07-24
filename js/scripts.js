@@ -5,7 +5,7 @@ $('.toggle').click(function() {
     if ($this.next().hasClass('show')) {
         $this.next().removeClass('show');
         $this.next().slideUp(350);
-        $(this).children().toggleClass("fas fa-plus fas fa-minus");
+        $(this).toggleClass("fas fa-plus fas fa-minus");
 
     } else {
         $this.parent().parent().find('li .inner').removeClass('show');
