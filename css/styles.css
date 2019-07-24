@@ -49,14 +49,14 @@ ul {
         display: none;
 }
         &.show {
-          display: block;
+          /*display: block;*/
         }
 
 
     li {
         margin: .5em 0;
 }
-        .toggle {
+        a.toggle {
             width: 100%;
             display: block;
             background: rgb(211, 18, 69);
@@ -73,7 +73,7 @@ ul {
             i.fas.fa-plus, i.fas.fa-minus{
   	           float:left;
   	           font-size: 18px;
-               color: white;
+                color: #fefefe;
                margin-right: 40px;
               }
           #gray{
