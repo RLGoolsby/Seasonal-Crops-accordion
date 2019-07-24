@@ -8,8 +8,8 @@ $('.toggle').click(function() {
         $(this).children().toggleClass("fas fa-plus fas fa-minus");
 
     } else {
-        $this.parent().parent().find('li .inner').removeClass('show');
-        $this.parent().parent().find('li .inner').slideUp(350);
+        $this.parent().find('li .inner').removeClass('show');
+        $this.parent().find('li .inner').slideUp(350);
         $("i").attr("class", "fas fa-plus");
         $this.next().toggleClass('show');
         $this.next().slideToggle(350);
