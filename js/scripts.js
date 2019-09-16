@@ -14,7 +14,7 @@ $('html,body').animate({scrollTop: $(this).offset().top -150}, 1000);
 ////////FOR GOOGLE FORM DISPLAY/////////////////////////////////////////////
 $(document).ready(function(){
   $("#comment-form").click(function(){
-      $('.embed-container').slideToggle(1000, function(){
+      $('.question').slideToggle(1000, function(){
       $('html,body').animate({scrollTop: $(this).offset().top -500}, 2000);
     });//ENDS CLICK BUTTON FUNCTON//
   });//ENDS FORM TOGGLE FUNCTION//
