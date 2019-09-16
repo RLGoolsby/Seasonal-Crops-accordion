@@ -53,7 +53,7 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   letter-spacing: 2px;
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
@@ -107,7 +107,7 @@ li {
 
 /* styling for icon right arrow in .inner panel*/
 .right-arrow {
-  color: #eb4034;
+  color: #0000E0;
   font-weight: 900;
   padding-right: 3px;
 }
@@ -296,11 +296,13 @@ a#gray.active:after {
 }
 
 .question {
+  position: relative;
   border: 2px solid black;
   margin-left: 39%;
   width: 22%;
   background-color: #cfd4d4;
   border-radius: 5px;
+  display: none;
 }
 
 .choice {
@@ -347,6 +349,46 @@ a#gray.active:after {
 /* to adjust the google icons to fit correctly on the smaller screens */
 @media only screen and (max-width: 375px) {
   .accordion {
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+  }
+
+  #comment-form {
+    min-width: 76px;
+    margin-right: auto;
+    margin-left: 39%;
+  }
+
+  .question {
+    margin-left: 25%;
+    width: 48%;
+  }
+
+  .choice {
+    margin-left: 32%;
+  }
+
+  .form-submit {
+    margin-left: 32%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #comment-form {
+    min-width: 76px;
+    margin-right: auto;
+    margin-left: 41%;
+  }
+
+  .question {
+    margin-left: 28%;
+    width: 44%;
+  }
+
+  .choice {
+    margin-left: 34%;
+  }
+
+  .form-submit {
+    margin-left: 32%;
   }
 }
