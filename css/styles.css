@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,400,600');
 
-
-
 /********************************************************************************/
 body {
   max-width: 1400px;
@@ -238,22 +236,8 @@ a#gray.active:after {
   background-color: black;
   border-radius: 5px;
 }
-
-/* #four .lock-img::before{
-    content: "";
-    background: url('/wcsstore/AuroraB2BStorefrontAssetStor/images/lock_rounded.png'); */
-/* background: url('/wcsstore/AuroraB2BStorefrontAssetStor/images/Lock_Black_and_White.png'); */
-/* background-size: 100%; */
-/* width: 18px;
-    height: 24px; */
-/* display: block;
-    position: absolute;
-    top: 6px;
-    left: 10px;
-    background-image: repeat;
-} */
 /********************************************/
-/*             GOOGLE FORM CSS                 */
+/*             FORM CSS                     */
 .edit-icon {
   color: white;
   font-weight: 700;
@@ -261,6 +245,17 @@ a#gray.active:after {
   vertical-align: middle;
   font-size: normal;
   text-decoration: none;
+}
+
+/* COMMENT Q: AT BOTTOM OF PAGE*/
+.please {
+  margin: 3em auto 2.25em;
+  padding: 0px 10px 0px 10px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 #comment-form {
@@ -333,17 +328,6 @@ a#gray.active:after {
   background-color: #038c23;
   background-image: linear-gradient(to bottom, #038c23, #04b02c);
   opacity: 0.8;
-}
-
-/* COMMENT Q: AT BOTTOM OF PAGE*/
-.please {
-  margin: 3em auto 2.25em;
-  padding: 0px 10px 0px 10px;
-  font-weight: 500;
-  font-family: 'Lato', sans-serif;
-  font-size: 24px;
-  letter-spacing: 2px;
-  text-align: center;
 }
 
 /* to adjust the google icons to fit correctly on the smaller screens */
