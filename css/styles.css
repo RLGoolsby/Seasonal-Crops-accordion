@@ -49,9 +49,10 @@ p {
   padding: 0px 10px 0px 18px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   letter-spacing: 2px;
   text-align: center;
+  color:#400501;
 }
 
 h1 {
