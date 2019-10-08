@@ -106,7 +106,7 @@ li {
 
 /* styling for icon right arrow in .inner panel*/
 .right-arrow {
-  color: #0000E0;
+  color: #f09307;
   font-weight: 900;
   padding-right: 3px;
 }
@@ -156,13 +156,13 @@ li {
 
 a.accordion:after {
   content: "+";
-  font-weight: bold;
-  float: left;
-  margin-left: -17px;
-  /* margin-left: 5px; */
-  /* margin-right: 20px; */
-  margin-right: 9px;
-  color: #028E9C;
+    font-weight: bold;
+    float: left;
+    /* margin-left: -6px; */
+    /* margin-left: 5px; */
+    /* margin-right: 20px; */
+    margin-right: 24px;
+    color: #6b2e03;
 }
 
 a.accordion.active:after {
@@ -174,7 +174,7 @@ a.accordion.active:after {
 #gray {
   content: "+";
   padding-left: 2em;
-  background-color: #4e5052;
+  background-color:#5c1d19;
   /* background: rgb(92, 89, 89); */
   color: #fefefe;
   width: 100%;
