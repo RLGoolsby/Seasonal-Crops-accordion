@@ -266,7 +266,7 @@ a#gray.active:after {
   text-align: center;
   color: white;
   margin-right: auto;
-  margin-left: 45%;
+  margin-left: 42%;
   margin-bottom: 1%;
   background-color: #235A8B;
   /* background-color: #3498db; */
@@ -276,7 +276,7 @@ a#gray.active:after {
   border-radius: 3px;
   cursor: pointer;
   font-family: 'Lato', sans-serif;
-  width: 10%;
+  width: 15%;
   height: 30%;
   padding: 6px;
   letter-spacing: 2px;
