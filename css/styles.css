@@ -149,6 +149,7 @@ li {
   font-weight: 400;
   font-size: 23px;
   cursor: pointer;
+  background-color: lightyellow;
   /* letter-spacing: 3px; */
 }
 
