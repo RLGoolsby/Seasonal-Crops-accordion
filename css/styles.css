@@ -17,7 +17,7 @@ body {
 
 
 .accordion-wrapper {
-  background-color: goldenrod;
+  background-color: black;
   padding:40px;
   margin-bottom: 20px;
   margin-top: 75px;
@@ -47,6 +47,7 @@ p {
   font-family: inherit;
   letter-spacing: 0.5px;
   line-height: 25px;
+  color: white;
 }
 
 .description {
@@ -73,6 +74,7 @@ h3 {
   font-weight: 800;
   font-size: 1.2em;
   padding-top: 20px;
+  color: white;
 }
 
 h2 {
@@ -98,6 +100,7 @@ li {
   padding-bottom: 8px;
   font-family: inherit;
   letter-spacing: 1px;
+  color: white;
 }
 
 /* styling for bullet points under Shipping accordion */
@@ -134,7 +137,7 @@ li {
 /***** styling for main panels and toggle icon *****/
 .accordion {
   /* width: 100%; */
-  width: 80%;
+  /* width: 80%; */
   display: block;
   /* font-family: "Century Gothic", sans-serif; */
   /* background: #d31245; */
@@ -180,15 +183,15 @@ a.accordion.active:after {
 #gray {
   content: "+";
   padding-left: 2em;
-  background-color:#5c1d19;
+  background-color: darkolivegreen;
   /* background: rgb(92, 89, 89); */
   color: #fefefe;
-  width: 87%;;
+  /* width: 87%; */
 }
 
 #gray:hover {
   content: "-";
-  background-color: #5C1D19;
+  background-color: darkred;
   /* background-color: #708090; */
   /* background: rgb(92, 89, 89); */
   opacity: 0.7;
