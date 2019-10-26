@@ -281,7 +281,7 @@ a#gray.active:after {
   margin-bottom: 1%;
   background-color: #02790F;
   /* background-color: #3498db; */
-  background-image: linear-gradient(to bottom, #02790F, #04A616);
+  background-image: linear-gradient(to bottom, #02790F, #02A114);
   font-weight: 700;
   font-size: 20px;
   border-radius: 3px;
@@ -289,7 +289,7 @@ a#gray.active:after {
   font-family: 'Lato', sans-serif;
   width: 30%;
   height: 30%;
-  /* padding: 6px; */
+  padding: 3px;
   letter-spacing: 2px;
   border-radius: 5px;
   border: 1px solid black;
@@ -297,8 +297,8 @@ a#gray.active:after {
 }
 
 #comment-form:hover {
-  background: #235A8B;
-  background-image: linear-gradient(to bottom, #235A8B, #6289AC);
+  background: #02790F;
+  background-image: linear-gradient(to bottom,#02790F, #02A114);
   opacity: 0.8;
 }
 
