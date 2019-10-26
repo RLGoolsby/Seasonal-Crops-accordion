@@ -164,7 +164,7 @@ li {
 }
 
 a.accordion:after {
-  content: "+";
+  content: "☛";
     font-weight: bold;
     float: left;
     /* margin-left: -6px; */
@@ -175,13 +175,13 @@ a.accordion:after {
 }
 
 a.accordion.active:after {
-  content: "−";
+  content: "☟";
 }
 
 /******************************************/
 /*  styling for inner panels */
 #gray {
-  content: "+";
+  content: "☛";
   padding-left: 2em;
   background-color: darkolivegreen;
   /* background: rgb(92, 89, 89); */
@@ -190,7 +190,7 @@ a.accordion.active:after {
 }
 
 #gray:hover {
-  content: "-";
+  content: "☟";
   background-color: darkred;
   /* background-color: #708090; */
   /* background: rgb(92, 89, 89); */
@@ -198,7 +198,7 @@ a.accordion.active:after {
 }
 
 a#gray:after {
-  content: "+";
+  content: "☛";
   font-weight: bold;
   float: left;
   margin-left: -17px;
@@ -209,7 +209,7 @@ a#gray:after {
 }
 
 a#gray.active:after {
-  content: "−";
+  content: "☟";
 }
 
 /****************************************/
