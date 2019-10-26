@@ -153,6 +153,7 @@ li {
   font-size: 23px;
   cursor: pointer;
   background-color: lightyellow;
+  -webkit-box-shadow: 1px 4px 2px 2px lightgrey;
   /* letter-spacing: 3px; */
 }
 
@@ -187,6 +188,7 @@ a.accordion.active:after {
   /* background: rgb(92, 89, 89); */
   color: #fefefe;
   /* width: 87%; */
+  -webkit-box-shadow: 1px 4px 1px 2px lightgrey;
 }
 
 #gray:hover {
