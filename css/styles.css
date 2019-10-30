@@ -14,7 +14,15 @@ body {
   font-weight: 400;
 }
 
+.content-wrapper{
+  padding: 20px;
+  margin: 0px auto;
+  background: #7986cb;
+  background-image: url("../img/spooky-monster-fog-creepy.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 
+}
 
 .accordion-wrapper {
   background-color: black;
@@ -32,8 +40,12 @@ a {
 
 .links {
   font-weight: 500;
-  color: blue;
+  color: #fff;
   text-decoration: underline;
+}
+.links:hover{
+color: red;
+
 }
 
 .samples {
@@ -152,7 +164,7 @@ li {
   font-weight: 400;
   font-size: 23px;
   cursor: pointer;
-  background-color: lightyellow;
+  background-color: aliceblue;
   -webkit-box-shadow: 1px 4px 8px 2px lightgrey;
   /* letter-spacing: 3px; */
 }
@@ -277,17 +289,17 @@ a#gray.active:after {
   text-align: center;
   color: white;
   margin-right: auto;
-  margin-left: 35%;
+  margin-left: 38%;
   margin-bottom: 1%;
   background-color: #02790F;
   /* background-color: #3498db; */
   background-image: linear-gradient(to bottom, #02790F, #02A114);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 3px;
   cursor: pointer;
   font-family: 'Lato', sans-serif;
-  width: 30%;
+  width: 23%;
   height: 30%;
   padding: 3px;
   letter-spacing: 2px;
@@ -306,14 +318,14 @@ a#gray.active:after {
   position: relative;
   border: 2px solid black;
   margin-left: 39%;
-  width: 22%;
+  width: 20%;
   background-color: #cfd4d4;
   border-radius: 5px;
   display: none;
 }
 
 .choice {
-  margin-left: 42%;
+  margin-left: 35%;
   margin-top: 25px;
 }
 
@@ -323,7 +335,7 @@ a#gray.active:after {
 }
 
 .form-submit {
-  margin-left: 39%;
+  margin-left: 32%;
   margin-bottom: 10px;
   padding: 4px;
   font-size: 15px;
@@ -376,8 +388,8 @@ a#gray.active:after {
   }
 
   .question {
-    margin-left: 28%;
-    width: 44%;
+    margin-left: 31%;
+    width: 40%;
   }
 
   .choice {
