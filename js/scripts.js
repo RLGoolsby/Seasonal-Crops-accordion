@@ -18,6 +18,7 @@ $(document).ready(function(){
       $('html,body').animate({scrollTop: $(this).offset().top -500}, 2000);
     });//ENDS CLICK BUTTON FUNCTON//
 	  $('#comment-form').find("input[type=radio").val("");
+	  $("#comment-form").find('input:radio').removeAttr('selected');
   });//ENDS FORM TOGGLE FUNCTION//
 });//ENDS DOC .READY FUNCTION//
 //////////////////////////////////////////////////////////////////////////
