@@ -16,10 +16,10 @@ $(document).ready(function(){
   $("#comment-form").click(function(){
       $('.question').slideToggle(1000, function(){
       $('html,body').animate({scrollTop: $(this).offset().top -500}, 2000);
-    });//ENDS CLICK BUTTON FUNCTON//
-	  $(".question").find("input[type=radio").val("");
-	  $(".question").find('input:radio').removeAttr('selected');
+    });//ENDS CLICK BUTTON FUNCTON//	  
   });//ENDS FORM TOGGLE FUNCTION//
+	 $(".question").find("input[type=radio").val("");
+	  $(".question").find('input:radio').removeAttr('selected');
 });//ENDS DOC .READY FUNCTION//
 //////////////////////////////////////////////////////////////////////////
 
