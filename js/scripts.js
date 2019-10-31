@@ -20,7 +20,7 @@ $(document).ready(function(){
   });//ENDS FORM TOGGLE FUNCTION//
 });//ENDS DOC .READY FUNCTION//
 //////////////////////////////////////////////////////////////////////////
-$('.question').val(null).trigger('change');
+
 ///EVENT THAT OPENS THE SPECIFIC ACCORDION PANELS TIED TO HREF LINK//////
 $(document).ready(function(){
   $('.accordion').click(function(e){
