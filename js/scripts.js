@@ -17,10 +17,10 @@ $(document).ready(function(){
       $('.question').slideToggle(1000, function(){
       $('html,body').animate({scrollTop: $(this).offset().top -500}, 2000);
     });//ENDS CLICK BUTTON FUNCTON//
-  });//ENDS FORM TOGGLE FUNCTION//	
+  });//ENDS FORM TOGGLE FUNCTION//
 });//ENDS DOC .READY FUNCTION//
 //////////////////////////////////////////////////////////////////////////
-
+$('.question').val(null).trigger('change');
 ///EVENT THAT OPENS THE SPECIFIC ACCORDION PANELS TIED TO HREF LINK//////
 $(document).ready(function(){
   $('.accordion').click(function(e){
