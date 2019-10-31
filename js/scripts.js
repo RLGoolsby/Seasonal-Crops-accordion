@@ -17,6 +17,7 @@ $(document).ready(function(){
       $('.question').slideToggle(1000, function(){
       $('html,body').animate({scrollTop: $(this).offset().top -500}, 2000);
     });//ENDS CLICK BUTTON FUNCTON//
+	  $('#comment-form').find("input[type=radio").val("");
   });//ENDS FORM TOGGLE FUNCTION//
 });//ENDS DOC .READY FUNCTION//
 //////////////////////////////////////////////////////////////////////////
