@@ -17,8 +17,6 @@ $(document).ready(function(){
       $('.question').slideToggle(1000, function(){
       $('html,body').animate({scrollTop: $(this).offset().top -500}, 2000);
     });//ENDS CLICK BUTTON FUNCTON//
-      $(".question").find("input[type=radio").val("");
-      $(".question").find('input:radio').removeAttr('selected');
   });//ENDS FORM TOGGLE FUNCTION//	
 });//ENDS DOC .READY FUNCTION//
 //////////////////////////////////////////////////////////////////////////
