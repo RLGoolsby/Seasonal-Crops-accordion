@@ -323,7 +323,7 @@ a#gray.active:after {
   opacity: 0.8;
 }
 
-.question {
+/*.question {
   position: relative;
   border: 2px solid black;
   margin-left: 39%;
@@ -331,20 +331,34 @@ a#gray.active:after {
   background-color: #cfd4d4;
   border-radius: 5px;
   display: none;
+}*/
+.question {
+    position: relative;
+    margin-left: 38%;
+    width: 22%;
+    background-color: darkred;
+    opacity: 0.4;
+    display: none;
 }
 
 .choice {
-  margin-left: 35%;
-  margin-top: 25px;
+    margin-left: 29%;
+    margin-top: 25px;
+}
+.thumb{
+font-weight: 900;
+color: lightskyblue;
+margin-left: 10px;
 }
 
 .answer {
-  font-size: 17px;
-  margin-right: 6px;
+    font-size: 17px;
+    margin-right: 8px;
+    color: ghostwhite;
 }
 
 .form-submit {
-  margin-left: 37%;
+  margin-left: 28%;
   margin-bottom: 12px;
   padding: 4px;
   font-size: 15px;
