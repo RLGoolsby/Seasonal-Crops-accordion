@@ -107,8 +107,11 @@ li {
   /* font-weight: 500; */
 }
 img{
-width:300px;
-height: auto;
+width: 50%;
+height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .bullets {
