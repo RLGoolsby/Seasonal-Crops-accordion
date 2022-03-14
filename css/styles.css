@@ -36,8 +36,8 @@ a {
   color: inherit;
   margin: 5px auto;
 }
-.fa-solid{
-  color: white;
+.fa-solid.fa-seedling{
+  color: darkgreen;
   font-size: 40px;
 }
 
