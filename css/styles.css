@@ -17,14 +17,14 @@ body {
 .content-wrapper{
   padding: 20px;
   margin: 0px auto;
-  background: #7986cb;
+  background: white;
   background-repeat: no-repeat;
   background-size:cover;
 
 }
 
 .accordion-wrapper {
-  background-color: black;
+  background-color: lightskyblue;
   padding:40px;
   margin-bottom: 20px;
   margin-top: 75px;
@@ -73,7 +73,7 @@ p {
   font-size: 25px;
   letter-spacing: 2px;
   text-align: center;
-  color:#921A04;
+  color: #000;
 }
 
 h1 {
@@ -82,6 +82,12 @@ h1 {
   font-size: 2.5em;
   padding: 0px 10px 0px 14px;
   text-align: center;
+}
+h2 {
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -92,12 +98,7 @@ h3 {
   color: white;
 }
 
-h2 {
-  font-weight: 500;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  letter-spacing: 2px;
-}
+
 
 ul {
   list-style: none;
