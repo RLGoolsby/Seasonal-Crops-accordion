@@ -135,7 +135,7 @@ li {
 
 /* styling for icon right arrow in .inner panel*/
 .right-arrow {
-  color: #F61102;
+  color: #000;
   font-weight: 900;
   padding-right: 3px;
 }
@@ -177,21 +177,21 @@ li {
 }
 
 .accordion:hover {
-  color: #000;
+  color: lightgrey;
   font-weight: 500;
   /* background-color: #6C7A89; */
   /* opacity: 0.8; */
 }
 
 a.accordion:after {
-  content: “›”;
+  content:"\2192";
     font-weight: bold;
     float: left;
     /* margin-left: -6px; */
     /* margin-left: 5px; */
     /* margin-right: 20px; */
     margin-right: 24px;
-    color: #6b2e03;
+    color: #000;
 }
 
 a.accordion.active:after {
@@ -201,7 +201,7 @@ a.accordion.active:after {
 /******************************************/
 /*  styling for inner panels */
 #gray {
-  content: "☛";
+  content: "\2192";
     padding-left: 2em;
     background-color: lightgoldenrodyellow;
     /* background: rgb(92, 89, 89); */
@@ -212,7 +212,7 @@ a.accordion.active:after {
 
 
 #gray:hover {
-  content: "☟";
+  content: "\25be";
   background-color: lightgreen;
   /* background-color: #708090; */
   /* background: rgb(92, 89, 89); */
@@ -220,7 +220,7 @@ a.accordion.active:after {
 }
 
 a#gray:after {
-  content: "☛";
+  content: "\2192";
   font-weight: bold;
   float: left;
   margin-left: -17px;
@@ -231,7 +231,7 @@ a#gray:after {
 }
 
 a#gray.active:after {
-  content: "☟";
+  content: "\25be";
 }
 
 /****************************************/
