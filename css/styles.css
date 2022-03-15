@@ -92,13 +92,12 @@ h2 {
 
 h3 {
   font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 1.2em;
-  padding-top: 20px;
-  color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
 }
-
-
 
 ul {
   list-style: none;
@@ -106,9 +105,10 @@ ul {
 }
 
 li {
-  padding-bottom: 5px;
-  /* margin: .5em 1em .5em 1em; */
-  /* font-weight: 500; */
+  padding-bottom: 8px;
+  color: #FFF;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 
 .bullets {
@@ -117,38 +117,31 @@ li {
     padding-bottom: 8px;
     font-family: inherit;
     letter-spacing: 1px;
-    color: white;
     font-size: 20px;
 }
 .font{
   margin-left: 20px;
-  font-size: 22px;
-}
-/* styling for bullet points under Shipping accordion */
-.shift-in {
-  margin-left: 60px;
+  font-size: 30px;
 }
 
-.darker-letters {
-  font-weight: 900;
-}
 
 /* styling for icon right arrow in .inner panel*/
-.right-arrow {
+/* .right-arrow {
   color: #000;
   font-weight: 900;
   padding-right: 3px;
-}
+} */
 
 .inner {
   padding-bottom: 0.3em;
   overflow: hidden;
   display: none;
+  background-color: darkolivegreen;
 }
 
 /* inner panel titles */
 .faq-title {
-  font-size: 20px;
+  font-size: 24px;
   margin-left: 6px;
   font-weight: 500;
 }
@@ -158,11 +151,6 @@ li {
   /* width: 100%; */
   /* width: 80%; */
   display: block;
-  /* font-family: "Century Gothic", sans-serif; */
-  /* background: #d31245; */
-  /* background-color: #121111; */
-  /* background-color: #373738; */
-  /* background-color: #4e5052; */
   color: #000;
   /* color: #D2D7D3; */
   border-bottom: 3px solid gray;
@@ -172,12 +160,12 @@ li {
   font-size: 23px;
   cursor: pointer;
   background-color: aliceblue;
-  -webkit-box-shadow: 1px 4px 8px 2px lightgrey;
+  /* -webkit-box-shadow: 1px 4px 8px 2px lightgrey; */
   /* letter-spacing: 3px; */
 }
 
 .accordion:hover {
-  color: lightgrey;
+  color: green;
   font-weight: 500;
   /* background-color: #6C7A89; */
   /* opacity: 0.8; */
@@ -236,51 +224,44 @@ a#gray.active:after {
 
 /****************************************/
 /* google icons styling - this is a neccessary css element to use so the icons display properly */
-.material-icons {
+/* .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 36px;
+  font-size: 36px; */
   /* Preferred icon size */
-  display: inline-block;
+  /* display: inline-block;
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-}
-
+} */
+/*
 .material-icons.md-36 {
   font-size: 36px;
-}
+} */
 
 .icon {
   float: right;
   color: #000;
 }
 
-.lock-img {
-  font-size: 14px;
-  font-weight: bold;
-  padding: 5px 7px 2px 7px;
-  float: right;
-  background-color: black;
-  border-radius: 5px;
-}
+
 /********************************************/
 /*             FORM CSS                     */
-.edit-icon {
+/* .edit-icon {
   color: white;
   font-weight: 700;
   padding-right: 15px;
   vertical-align: middle;
   font-size: normal;
   text-decoration: none;
-}
+} */
 
 /* COMMENT Q: AT BOTTOM OF PAGE*/
-.please {
+/* .please {
   margin: 3em auto 2.25em;
   padding: 0px 10px 0px 10px;
   font-weight: 500;
@@ -288,7 +269,7 @@ a#gray.active:after {
   font-size: 24px;
   letter-spacing: 2px;
   text-align: center;
-}
+} */
 
 /* #comment-form {
   min-width: 62px;
@@ -381,27 +362,27 @@ margin-left: 10px;
     letter-spacing: 4px;
   }
 
-  #comment-form {
+  /* #comment-form {
     min-width: 76px;
     margin-right: auto;
     margin-left: 39%;
-  }
+  } */
 
-  .question {
+  /* .question {
     margin-left: 25%;
     width: 48%;
   }
 
   .choice {
     margin-left: 32%;
-  }
+  } */
 
-  .form-submit {
+  /* .form-submit {
     margin-left: 32%;
-  }
+  } */
 }
 
-@media only screen and (max-width: 414px) {
+/* @media only screen and (max-width: 414px) {
   #comment-form {
     min-width: 76px;
     margin-right: auto;
@@ -420,4 +401,4 @@ margin-left: 10px;
   .form-submit {
     margin-left: 32%;
   }
-}
+} */
