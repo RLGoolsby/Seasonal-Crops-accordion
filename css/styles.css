@@ -148,11 +148,8 @@ li {
 
 /***** styling for main panels and toggle icon *****/
 .accordion {
-  /* width: 100%; */
-  /* width: 80%; */
   display: block;
   color: #000;
-  /* color: #D2D7D3; */
   border-bottom: 3px solid gray;
   padding: 0.9em;
   border-radius: 0.15em;
@@ -160,24 +157,17 @@ li {
   font-size: 23px;
   cursor: pointer;
   background-color: aliceblue;
-  /* -webkit-box-shadow: 1px 4px 8px 2px lightgrey; */
-  /* letter-spacing: 3px; */
 }
 
 .accordion:hover {
   color: green;
   font-weight: 500;
-  /* background-color: #6C7A89; */
-  /* opacity: 0.8; */
 }
 
 a.accordion:after {
   content:"\2192";
     font-weight: bold;
     float: left;
-    /* margin-left: -6px; */
-    /* margin-left: 5px; */
-    /* margin-right: 20px; */
     margin-right: 24px;
     color: #000;
 }
@@ -188,39 +178,32 @@ a.accordion.active:after {
 
 /******************************************/
 /*  styling for inner panels */
-#gray {
+/* #gray {
   content: "\2192";
     padding-left: 2em;
     background-color: lightgoldenrodyellow;
-    /* background: rgb(92, 89, 89); */
     color: #fefefe;
-    /* width: 87%; */
-    /* -webkit-box-shadow: 1px 4px 8px 2px lightgrey; */
-}
+} */
 
 
-#gray:hover {
+/* #gray:hover {
   content: "\25be";
   background-color: lightgreen;
-  /* background-color: #708090; */
-  /* background: rgb(92, 89, 89); */
   opacity: 0.7;
-}
+} */
 
-a#gray:after {
+/* a#gray:after {
   content: "\2192";
   font-weight: bold;
   float: left;
   margin-left: -17px;
-  /* margin-left: 5px; */
-  /* margin-right: 20px; */
   margin-right: 9px;
   color: #fefefe;
 }
 
 a#gray.active:after {
   content: "\25be";
-}
+} */
 
 /****************************************/
 /* google icons styling - this is a neccessary css element to use so the icons display properly */
