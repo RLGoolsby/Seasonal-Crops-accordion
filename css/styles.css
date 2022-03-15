@@ -41,20 +41,20 @@ a {
   font-size: 40px;
 }
 
-.links {
+/* .links {
   font-weight: 500;
   color: #fff;
   text-decoration: underline;
-}
-.links:hover{
+} */
+/* .links:hover{
 color: red;
 
-}
+} */
 
-.samples {
+/* .samples {
   width: 300px;
   height: 300px;
-}
+} */
 
 p {
   font-size: 1.1em;
