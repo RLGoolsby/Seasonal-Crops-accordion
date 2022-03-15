@@ -163,7 +163,7 @@ li {
   /* background-color: #121111; */
   /* background-color: #373738; */
   /* background-color: #4e5052; */
-  color: #595959;
+  color: #000;
   /* color: #D2D7D3; */
   border-bottom: 3px solid gray;
   padding: 0.9em;
@@ -184,7 +184,7 @@ li {
 }
 
 a.accordion:after {
-  content: "☛";
+  content: “›”;
     font-weight: bold;
     float: left;
     /* margin-left: -6px; */
@@ -195,24 +195,25 @@ a.accordion:after {
 }
 
 a.accordion.active:after {
-  content: "☟";
+  content: "\25be";
 }
 
 /******************************************/
 /*  styling for inner panels */
 #gray {
   content: "☛";
-  padding-left: 2em;
-  background-color: darkolivegreen;
-  /* background: rgb(92, 89, 89); */
-  color: #fefefe;
-  /* width: 87%; */
-  -webkit-box-shadow: 1px 4px 8px 2px lightgrey;
+    padding-left: 2em;
+    background-color: lightgoldenrodyellow;
+    /* background: rgb(92, 89, 89); */
+    color: #fefefe;
+    /* width: 87%; */
+    /* -webkit-box-shadow: 1px 4px 8px 2px lightgrey; */
 }
+
 
 #gray:hover {
   content: "☟";
-  background-color: darkred;
+  background-color: lightgreen;
   /* background-color: #708090; */
   /* background: rgb(92, 89, 89); */
   opacity: 0.7;
@@ -289,7 +290,7 @@ a#gray.active:after {
   text-align: center;
 }
 
-#comment-form {
+/* #comment-form {
   min-width: 62px;
   font-weight: normal;
   display: inline-block;
@@ -299,7 +300,6 @@ a#gray.active:after {
   margin-left: 38%;
   margin-bottom: 1%;
   background-color: #02790F;
-  /* background-color: #3498db; */
   background-image: linear-gradient(to bottom, #02790F, #02A114);
   font-weight: 700;
   font-size: 18px;
@@ -319,7 +319,7 @@ a#gray.active:after {
   background: #02790F;
   background-image: linear-gradient(to bottom,#02790F, #02A114);
   opacity: 0.8;
-}
+} */
 
 /*.question {
   position: relative;
@@ -330,7 +330,7 @@ a#gray.active:after {
   border-radius: 5px;
   display: none;
 }*/
-.question {
+/* .question {
     position: relative;
     margin-left: 38%;
     width: 22%;
@@ -353,9 +353,9 @@ margin-left: 10px;
     font-size: 17px;
     margin-right: 8px;
     color: ghostwhite;
-}
+} */
 
-.form-submit {
+/* .form-submit {
   margin-left: 28%;
   margin-bottom: 12px;
   padding: 4px;
@@ -373,7 +373,7 @@ margin-left: 10px;
   background-color: #038c23;
   background-image: linear-gradient(to bottom, #038c23, #04b02c);
   opacity: 0.8;
-}
+} */
 
 /* to adjust the google icons to fit correctly on the smaller screens */
 @media only screen and (max-width: 375px) {
