@@ -40,6 +40,11 @@ a {
   color: darkgreen;
   font-size: 40px;
 }
+.row-of-icons{
+  font-size: 20px;
+  padding:10px;
+  margin: auto;
+}
 
 /* .links {
   font-weight: 500;
