@@ -40,6 +40,10 @@ a {
   color: darkgreen;
   font-size: 40px;
 }
+.fa-solid.fa-circle{
+  color: #8FEE8F;
+  background-color: #8FEE8F;
+}
 .row-of-icons{
   font-size: 20px;
   padding:10px;
