@@ -204,6 +204,10 @@ li.crop-box {
   font-size: 23px;
   cursor: pointer;
   background-color: aliceblue;
+  transition: background-color 0.3s ease;
+  border-right: 2px outset #ebe8e85e;
+  border-bottom: 3px outset #fbf9f945;
+  border-left: 2px outset #adacac85;
 }
 
 .accordion:hover {
