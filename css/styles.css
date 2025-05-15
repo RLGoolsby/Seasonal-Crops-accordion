@@ -56,6 +56,22 @@ a {
   margin: auto;
 }
 
+.one {
+  background-color: #fff;
+}
+
+.two {
+  background-color: #d1fcab;
+}
+
+.three {
+  background-color: #fef471;
+}
+
+.four {
+  background-color: #fcd7b2;
+}
+
 li.accordion-section {
   width: 90%;
   margin: auto;
