@@ -1,61 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <title>Accordion Page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Accordion Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel='stylesheet' type='text/css'>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- add for google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel='stylesheet'
+    type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css" rel="stylesheet"
+    type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- add for google fonts -->
 
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-  <body>
-    <div class="content-wrapper">
-      <main>
-        <section>
-          <header>
-            <h1><i class="fa-solid fa-seedling"></i>&nbsp;Planting Seasons&ensp;</h1>
-            <div class="description">It's possible to garden all year round</div>
-          </header>
+<body>
 
-          <!--- BEGINNING ACCORDION BODY -->
-          <ul class="accordion-wrapper">
-            <!-- 1ST ACCORDION GROUP -->
-            <li>
-              <a href="#" class="accordion" id="1">Winter
-                <span class="icon"><i class="fa-solid fa-snowflake"></i></span>
-              </a>
-              <ul class="inner">
-                <span><i class="fa-solid fa-leaf"></i>&nbsp;<i class="fa-solid fa-leaf"></i>&nbsp;<i class="fa-solid fa-leaf"></i></span>
-                    <h3>
-                      A Few Winter Crops
-                    </h3>
-                    <ul class="bullets">
-                      <li>Spinach</li>
-                      <li>Kale</li>
-                      <li>Garlic</li>
-                      <li>Mustard Greens</li>
-                      <li>Arugula</li>
-                      <li>Sweet Potatoes</li>
-                    </ul>
-              </ul><!-- END OF INNER PANEL -->
-            </li><!-- END OPENING li WRAPPER -->
-            <!-- </li> END OF FIRST ACCORDION GROUP -->
+  <main class="content-wrapper">
+    <section>
+      <header>
+        <h1 class="planting-title"><i class="fa-solid fa-seedling"></i>&nbsp;Planting Seasons&ensp;</h1>
+        <div class="plantingsubTitle">It's possible to garden all year round</div>
+      </header>
+
+      <!--- BEGINNING ACCORDION BODY -->
+      <ul class="accordion-wrapper">
+
+        <li class="accordion-section"><!-- 1ST ACCORDION SECTION -->
+          <a href="#" class="accordion" id="1">Winter
+            <span class="season-icon"><i class="fa-solid fa-snowflake"></i></span>
+          </a>
+          <ul class="inner grid">
+            <li class="season-section">
+              <!-- <span><i class="fa-solid fa-leaf"></i>&nbsp;<i class="fa-solid fa-leaf"></i>&nbsp;<i class="fa-solid fa-leaf"></i></span> -->
+              <h2 class="season-title"><strong>Winter</strong></h2>
+              <p class="season-description">Winter is a great time to plant crops that can withstand
+                the cold.</p>
+              <p class="season-description">These crops are hardy and can survive in colder
+                temperatures, making
+                them ideal for winter planting.</p>
+            </li>
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Leafy Greens</h3>
+              <ul class="bullets">
+                <li>Spinach</li>
+                <li>Kale</li>
+                <li>Lettuce</li>
+                <li>Collards</li>
+              </ul>
+            </li>
+
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Allium</h3>
+              <ul class="bullets">
+                <li>Onion</li>
+                <li>Garlic</li>
+                <li>Leeks</li>
+                <li>Scallions</li>
+              </ul>
+            </li>
+
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Root Crops</h3>
+              <ul class="bullets">
+                <li>Carrots</li>
+                <li>Beets</li>
+                <li>Sweet Potatoes</li>
+                <li>Rutabagas</li>
+              </ul>
+            </li>
+          </ul><!-- END OF INNER PANEL -->
+        </li><!-- END OF FIRST ACCORDION GROUP -->
 
 
-            <!-- 2ND SECTION-->
-            <li>
-              <a href="#" class="accordion" id="2">Spring<span class="icon"><i class="fa-solid fa-spa"></i></span></a>
-              <ul class="inner">
-                <span><i class="fa-solid fa-spa"></i>&nbsp;<i class="fa-solid fa-spa"></i>&nbsp;<i class="fa-solid fa-spa"></i></span>
-                <h3>
-                  A Few Spring Crops
-                </h3>
+
+        <!-- 2ND SECTION-->
+        <li>
+          <a href="#" class="accordion" id="2">Spring<span class="season-icon"><i
+                class="fa-solid fa-spa"></i></span></a>
+          <ul class="inner">
+            <li class="season-section">
+              <!-- <span><i class="fa-solid fa-spa"></i>&nbsp;<i class="fa-solid fa-spa"></i>&nbsp;<i
+                                class="fa-solid fa-spa"></i></span> -->
+              <h2 class="season-title"><strong>Spring</strong></h2>
+              <p class="season-description">Spring is a time of renewal and growth.</p>
+              <p class="season-description">As the weather warms up, it's the perfect time to plant a
+                variety of crops.</p>
+            </li>
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Cool Seaon Spring</h3>
+              <ul class="bullets">
+                <li>Peas</li>
+                <li>Spinach</li>
+                <li>Kale</li>
+                <li>Radishes</li>
+                <li>Sugar Snap Peas</li>
+              </ul>
+            </li>
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <figure class="example-img-wrapper">
+                  <img class="example-img" src="" alt="">
+                  <figcaption class="sr-only sr-only example-img-caption  ">Example Image Caption
+                  </figcaption>
+                </figure>
+                <h3 class="crop-family-title">Warm Seaon Spring</h3>
                 <ul class="bullets">
                   <li>Spinach</li>
                   <li>Kale</li>
@@ -66,64 +133,176 @@
                   <li>Potatoes</li>
                   <li>Sugar Snap Peas</li>
                 </ul>
+            </li>
+          </ul>
+        </li><!--END OF 2ND ACCORDION GROUP -->
+
+        <!-- 3RD SECTION-->
+        <li>
+          <a href="#" id="4" class="accordion">Summer<span class="season-icon"><i
+                class="fa-solid fa-sun"></i></span></a>
+
+          <ul class="inner">
+            <!-- <span><i class="fa-solid fa-sun"></i>&nbsp;<i class="fa-solid fa-sun"></i>&nbsp;<i
+                                class="fa-solid fa-sun"></i></span> -->
+            <li class="season-section">
+              <h2 class="season-title"><strong>Summer<i class="fa-regular fa-file-pdf"></i></strong>
+              </h2>
+              <p class="season-description">Summer is a time of abundance and growth.</p>
+              <p class="season-description">As the weather heats up, it's the perfect time to plant a
+                variety of crops.</p>
+            </li>
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Cabbage Family</h3>
+              <ul class="bullets">
+                <li>Cabbage</li>
+                <li>Broccoli</li>
+                <li>Cauliflower</li>
+                <li>Kale</li>
               </ul>
             </li>
-            <!--END OF 2ND ACCORDION GROUP-->
-            <!-- 3RD SECTION-->
-            <li>
-              <a href="#" id="4" class="accordion">Summer<span class="icon"><i class="fa-solid fa-sun"></i></span></a>
 
-              <ul class="inner">
-                <span><i class="fa-solid fa-sun"></i>&nbsp;<i class="fa-solid fa-sun"></i>&nbsp;<i class="fa-solid fa-sun"></i></span>
-                <li>
-                  <h3>
-                    A Few Summer Crops
-                  </h3>
-                  <ul class="bullets">
-                    <li>Tomatoes</li>
-                    <li>Peppers</li>
-                    <li>Beans</li>
-                    <li>Purple Hull Peas</li>
-                    <li>Black Beans</li>
-                    <li>Hibiscus</li>
-                    <li>And many more....</li>
-                  </ul>
-                </li>
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Squash Family</h3>
+              <ul class="bullets">
+                <li>Squash</li>
+                <li>Cucumbers</li>
+                <li>Melons</li>
+                <li>Pumpkins</li>
               </ul>
             </li>
-            <!--END 3RD ACCORDION GROUP-->
-            <!-- 4th SECTION-->
-            <li>
-              <a href="#" id="4" class="accordion">Fall<span class="icon"><i class="fa-solid fa-leaf-oak"></i></span></a>
 
-              <ul class="inner">
-                <!-- <span class="row-of-icons"><i class="fa-solid fa-leaf-maple"></i>&nbsp;<i class="fa-solid fa-leaf-maple"></i>&nbsp;<i class="fa-solid fa-leaf-maple"></i></span> -->
-                <!-- <li> -->
-                  <h3>
-                    A Few Fall Crops
-                  </h3>
-                  <ul class="bullets">
-                    <li>Pumpkins</li>
-                    <li>Butternut Squash</li>
-                    <li>Potatoes</li>
-                    <li>Purple Hull Peas</li>
-                    <li>Black Beans</li>
-                    <li>Egg Plant</li>
-                    <li>And many more....</li>
-                  </ul>
-                <!-- </li> -->
-
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Nightshade family</h3>
+              <ul class="bullets">
+                <li>Tomatoes</li>
+                <li>Peppers</li>
+                <li>Eggplant</li>
+                <li>Potatoes</li>
               </ul>
-            </li><!-- END OF FOURTH SECTION -->
+            </li>
 
-          </ul><!-- END ACCORDION-WRAPPER TAG -->
-        </section><!-- END SECTION TAG -->
-      </main><!-- END MAIN TAG -->
-    </div>
-    <!---END DIV 'CONTENT-WRAPPER' -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Pea family</h3>
+              <ul class="bullets">
+                <li>Beans</li>
+                <li>Peas</li>
+                <li>Chickpeas</li>
+                <li>Lentils</li>
+              </ul>
+            </li>
 
-    <script src="js/scripts.js"></script>
-  </body>
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Carrot Family</h3>
+              <ul class="bullets">
+                <li>Carrots</li>
+                <li>Parsnips</li>
+                <li>Celery</li>
+                <li>Fennel</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!--END 3RD ACCORDION GROUP-->
 
-  </html>
+        <!-- 4th SECTION-->
+        <li>
+          <a href="#" id="4" class="accordion">Fall<span class="season-icon"><i
+                class="fa-solid fa-leaf-oak"></i></span></a>
+
+          <ul class="inner">
+            <!-- <span class="row-of-icons"><i class="fa-solid fa-leaf-maple"></i>&nbsp;<i class="fa-solid fa-leaf-maple"></i>&nbsp;<i class="fa-solid fa-leaf-maple"></i></span> -->
+            <!-- <li> -->
+            <li class="season-section">
+              <h2 class="season-title">
+                <strong>Fall<i class="fa-regular fa-file-pdf"></i></strong>
+              </h2>
+              <p class="season-description">Fall is a time for harvest and preparation for winter.</p>
+              <p class="season-description">As the weather cools down, it's the perfect time to plant
+                a variety of crops.</p>
+            </li>
+
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Cabbage family</h3>
+              <ul class="bullets">
+                <li>Brussels Sprouts</li>
+                <li>Broccoli</li>
+                <li>Cauliflower</li>
+                <li>Cauliflower</li>
+                <li>Bok Choy</li>
+                <li>Kale</li>
+              </ul>
+            </li>
+
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Root Vegetables</h3>
+              <ul class="bullets">
+                <li>Carrots</li>
+                <li>Beets</li>
+                <li>Sweet Potatoes</li>
+                <li>Rutabagas</li>
+                <li>Radishes</li>
+                <li>Potatoes</li>
+              </ul>
+            </li>
+
+            <li class="crop-box">
+              <figure class="example-img-wrapper">
+                <img class="example-img" src="" alt="">
+                <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+              </figure>
+              <h3 class="crop-family-title">Leafy Greens</h3>
+              <ul class="bullets">
+                <li>Spinach</li>
+                <li>Kale</li>
+                <li>Swiss Chard</li>
+                <li>Collard Greens</li>
+                <li>Mustard Greens</li>
+                <li>Arugula</li>
+                <li>Lettuce</li>
+              </ul>
+            </li>
+          </ul><!-- END OF INNER PANEL -->
+        </li><!-- END OF FOURTH SECTION -->
+      </ul><!-- END ACCORDION-WRAPPER TAG -->
+    </section><!-- END SECTION TAG -->
+  </main><!-- END MAIN TAG -->
+  <div class="footer">
+    <p>Copyright &copy; 2025</p>
+    <p>All rights reserved.</p>
+  </div>
+  <!---END DIV 'CONTENT-WRAPPER' -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
