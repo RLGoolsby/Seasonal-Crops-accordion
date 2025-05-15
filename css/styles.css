@@ -18,13 +18,13 @@
 
 .accordion-wrapper {
   background-color: lightskyblue;
-  padding: 40px;
+  /* padding: 40px;
   margin-bottom: 20px;
   margin-top: 75px;
-  opacity: 0.7;
+  opacity: 0.7; */
 }
 
-.inner.grid {
+.crop-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 5%;
@@ -55,6 +55,15 @@ a {
 }
 
 
+li.season-section{
+  padding: 0px 10px 0px 18px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000;
+}
 
 p.season-description {
   font-size: 1.1em;
@@ -105,12 +114,12 @@ ul {
   padding: 0;
 }
 
-li {
+/* li {
   padding-bottom: 8px;
   color: #FFF;
   font-weight: 600;
   letter-spacing: 3px;
-}
+} */
 
 .example-img-wrapper {
   position: relative;
@@ -196,7 +205,7 @@ li.crop-box {
   font-weight: 500;
 }
 
-a.accordion:after {
+.accordion:after {
   content: "\2192";
   font-weight: bold;
   float: left;
@@ -204,7 +213,7 @@ a.accordion:after {
   color: #000;
 }
 
-a.accordion.active:after {
+.accordion.active:after {
   content: "\25be";
 }
 
