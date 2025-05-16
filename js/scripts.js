@@ -1,9 +1,9 @@
 $(document).ready(function () {
-  $('.accordion-toggle').on('click', function (event) {
+  $('.accordion').on('click', function (event) {
     event.preventDefault();
     // create accordion variables
     var accordion = $(this);
-    var accordionContent = accordion.next('.accordion-content');
+    var accordionContent = accordion.next('.inner');
     var accordionToggleIcon = $(this).children('.toggle-icon');
 
     // toggle accordion link open class
@@ -19,32 +19,7 @@ $(document).ready(function () {
     }
   });
 });
-//JQUERY ACCORDION TOGGLE AND REPOSITION ON PAGE WITH ANIMATE//
-$(document).ready(function () {
-  $('.accordion').click(function (e) {
-    e.preventDefault();
-    // create accordion variables
-    var accordion = $(this);
-    var accordionContent = accordion.next('.inner');
-    var accordionToggleIcon = $(this).children('.toggle-icon');
 
-    // toggle accordion link open class
-    accordion.toggleClass("open");
-    // toggle accordion content
-    accordionContent.slideToggle(250);
-
-    // change /minus icon
-    if (accordion.hasClass("open")) {
-      accordionToggleIcon.html("<i class='fa fa-minus-circle'></i>");
-    } else {
-      accordionToggleIcon.html("<i class='fa fa-plus-circle'></i>");
-    }
-    accordionContent.slideToggle("slow", "linear", function () {
-      $('html,body').animate({ scrollTop: $(this).offset().top - 150 }, 1000);
-    });//END TOGGLE FUNCTION
-  });//END ACCORDION CLICK EVENT
-});//END DOCUMENT.READY FUNCTION
-//////////////////////////////////////////////////////////////////////////
 
 ///EVENT THAT OPENS THE SPECIFIC ACCORDION PANELS TIED TO HREF LINK//////
 // $(document).ready(function () {
