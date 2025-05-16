@@ -10,6 +10,7 @@
   max-width: 1366px;
   min-width: 320px;
   min-height: 100vh;
+  background-color: lightskyblue;
 
   /* background-repeat: no-repeat;
   background-size: cover; */
@@ -52,19 +53,21 @@ a {
 } */
 
 .accordion.open {
-  background: #333;
-  color: #fff;
+  background: #d6fade;
+  color: #273328;
 }
 
 .accordion:hover {
-  background: #dcdbdb;
+  background: #c4fce5;
 }
 
 .accordion span.toggle-icon {
   position: absolute;
   top: 15px;
-  left: 20px;
-  font-size: 1.5em;
+  left: 15px;
+  transform: translate(15px, -15px);
+  font-size: 1em;
+  margin: auto;
 }
 
 .fa-solid.fa-seedling {
