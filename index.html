@@ -13,7 +13,7 @@
     type="text/css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- add for google fonts -->
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -29,7 +29,10 @@
       <ul class="accordion-wrapper">
 
         <li class="accordion-section"><!-- 1ST ACCORDION SECTION -->
-          <a href="#" class="accordion one" id="1">Winter
+          <!-- <span><i class="fa-solid fa-snowflake"></i>&nbsp;<i class="fa-solid fa-snowflake"></i>&nbsp;<i
+                                class="fa-solid fa-snowflake"></i></span> -->
+          <a href="#" class="accordion one" id="1"><span class="toggle-icon"><i
+                class="fa-solid fa-chevron-up fa-sm"></i>"></i></span>Winter
             <span class="season-icon"><i class="fa-solid fa-snowflake"></i></span>
           </a>
           <ul class="inner">
@@ -44,9 +47,18 @@
             </li>
             <ul class="crop-grid">
               <li class="crop-box">
-                <figure class="example-img-wrapper">
+                <figure>
+                  <picture class="example-img-wrapper">
+                    <source srcset="images/20250509_1649_Fresh Leafy Greens_remix_01jtvcw0zqe6dbch4k75s39jcz.webp"
+                      type="images/webp" loading="lazy" decoding="async">
+                    <source srcset="images/20250509_1649_Fresh Leafy Greens_remix_01jtvcw0zqe6dbch4k75s39jcz.png"
+                      type="images/png" loading="lazy" decoding="async">
+                    <img class="img-responsive"
+                      src="images/20250509_1649_Fresh Leafy Greens_remix_01jtvcw0zqe6dbch4k75s39jcz.png"
+                      alt="Cabbage Family images" loading="lazy" decoding="async">
+                  </picture>
                   <img class="example-img" src="" alt="">
-                  <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+                  <figcaption class="sr-only example-img-caption  ">Cabbage Family Crop Images</figcaption>
                 </figure>
                 <h3 class="crop-family-title">Leafy Greens</h3>
                 <ul class="bullets">
@@ -92,7 +104,8 @@
 
         <!-- 2ND SECTION-->
         <li class="accordion-section">
-          <a href="#" class="accordion two" id="2">Spring<span class="season-icon"><i
+          <a href="#" class="accordion two" id="2"><span class="toggle-icon"><i
+                class="fa fa-chevron-down"></i></span>Spring<span class="season-icon"><i
                 class="fa-solid fa-spa"></i></span></a>
           <ul class="inner">
             <li class="season-section">
@@ -107,7 +120,7 @@
               <li class="crop-box">
                 <figure class="example-img-wrapper">
                   <img class="example-img" src="" alt="">
-                  <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+                  <figcaption class="sr-only example-img-caption">Example Image Caption</figcaption>
                 </figure>
                 <h3 class="crop-family-title">Cool Seaon Spring</h3>
                 <ul class="bullets">
@@ -141,7 +154,8 @@
 
         <!-- 3RD SECTION-->
         <li class="accordion-section">
-          <a href="#" id="4" class="accordion  three">Summer<span class="season-icon"><i
+          <a href="#" id="4" class="accordion  three"><span class="toggle-icon"><i
+                class="fa fa-chevron-down"></i></span>Summer<span class="season-icon"><i
                 class="fa-solid fa-sun"></i></span></a>
 
           <ul class="inner">
@@ -172,7 +186,7 @@
               <li class="crop-box">
                 <figure class="example-img-wrapper">
                   <img class="example-img" src="" alt="">
-                  <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+                  <figcaption class="sr-only example-img-caption">Example Image Caption</figcaption>
                 </figure>
                 <h3 class="crop-family-title">Squash Family</h3>
                 <ul class="bullets">
@@ -186,7 +200,7 @@
               <li class="crop-box">
                 <figure class="example-img-wrapper">
                   <img class="example-img" src="" alt="">
-                  <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+                  <figcaption class="sr-only example-img-caption">Example Image Caption</figcaption>
                 </figure>
                 <h3 class="crop-family-title">Nightshade family</h3>
                 <ul class="bullets">
@@ -200,7 +214,7 @@
               <li class="crop-box">
                 <figure class="example-img-wrapper">
                   <img class="example-img" src="" alt="">
-                  <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+                  <figcaption class="sr-only example-img-caption">Example Image Caption</figcaption>
                 </figure>
                 <h3 class="crop-family-title">Pea family</h3>
                 <ul class="bullets">
@@ -214,7 +228,7 @@
               <li class="crop-box">
                 <figure class="example-img-wrapper">
                   <img class="example-img" src="" alt="">
-                  <figcaption class="sr-only example-img-caption  ">Example Image Caption</figcaption>
+                  <figcaption class="sr-only example-img-caption">Example Image Caption</figcaption>
                 </figure>
                 <h3 class="crop-family-title">Carrot Family</h3>
                 <ul class="bullets">
@@ -231,8 +245,9 @@
 
         <!-- 4th SECTION-->
         <li class="accordion-section">
-          <a href="#" id="4" class="accordion four">Fall<span class="season-icon"><i class="fa-solid fa-wheat-awn fa-sm"
-                style="color: #d38703;"></i></span></a>
+          <a href="#" id="4" class="accordion four"><span class="toggle-icon"><i
+                class="fa fa-chevron-down"></i></span>Fall<span class="season-icon"><i
+                class="fa-solid fa-wheat-awn fa-sm" style="color: #d38703;"></i></span></a>
 
           <ul class="inner">
             <span class="row-of-icons"><i class="fa-solid fa-leaf-maple"></i>&nbsp;<i

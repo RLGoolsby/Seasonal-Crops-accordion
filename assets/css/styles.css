@@ -40,6 +40,33 @@ a {
   color: inherit;
 }
 
+/* .accordion-toggle {
+  position: relative;
+  display: block;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: 300;
+  background: #999;
+  color: #fff;
+  text-decoration: none;
+} */
+
+.accordion.open {
+  background: #333;
+  color: #fff;
+}
+
+.accordion:hover {
+  background: #666;
+}
+
+.accordion span.toggle-icon {
+  position: absolute;
+  top: 9px;
+  right: 20px;
+  font-size: 1.5em;
+}
+
 .fa-solid.fa-seedling {
   color: darkgreen;
   font-size: 40px;
@@ -50,11 +77,11 @@ a {
   background-color: #8FEE8F;
 }
 
-.row-of-icons {
+/* .row-of-icons {
   font-size: 20px;
   padding: 10px;
   margin: auto;
-}
+} */
 
 .one {
   background-color: #fff;
@@ -211,12 +238,13 @@ li.crop-box {
 
 /***** styling for main panels and toggle icon *****/
 .accordion {
+  position: relative;
   display: block;
   color: #000;
-  border-bottom: 3px solid gray;
-  padding: 0.9em;
+  /* border-bottom: 3px solid gray; */
+  padding: 20px 40px;
   border-radius: 0.15em;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 23px;
   cursor: pointer;
   background-color: aliceblue;
@@ -226,22 +254,22 @@ li.crop-box {
   border-left: 2px outset #adacac85;
 }
 
-.accordion:hover {
+/* .accordion:hover {
   color: green;
   font-weight: 500;
-}
+} */
 
-.accordion:after {
+/* .accordion:after {
   content: "\2192";
   font-weight: bold;
   float: left;
   margin-right: 24px;
   color: #000;
-}
+} */
 
-.accordion.active:after {
+/* .accordion.active:after {
   content: "\25be";
-}
+} */
 
 span.season-icon {
   float: right;
@@ -250,6 +278,26 @@ span.season-icon {
 
 
 /********************************************/
+/* media query for mobile */
+@media (max-width: 767px) {
+  header {
+    width: auto;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+    background: white;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  .inner {
+    padding: 10px 0;
+    overflow: inherit;
+  }
+}
 
 /* to adjust the google icons to fit correctly on the smaller screens */
 @media only screen and (max-width: 375px) {
