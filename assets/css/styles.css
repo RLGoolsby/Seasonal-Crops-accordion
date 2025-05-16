@@ -3,18 +3,19 @@
 /******************************************************************************** a comment/
 * This is the main CSS file for the Planting Calendar application.**/
 .content-wrapper {
+  position: relative;
   padding: 20px;
   margin: 0px auto;
-  background: white;
   width: 80%;
   max-width: 1366px;
   min-width: 320px;
   min-height: 100vh;
-  background-color: lightskyblue;
-
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-
+  display: block;
+  overflow: hidden;
+  background-image: url("RLGoolsby/Seasonal-Crops-accordion/images/20250509_1649_Fresh Leafy Greens_remix_01jtvcw0zqe6dbch4k75s39jcz.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .accordion-wrapper {
@@ -65,7 +66,7 @@ a {
   position: absolute;
   top: 15px;
   left: 15px;
-  transform: translate(15px, -15px);
+  transform: translate(-2px, 3px);
   font-size: 1em;
   margin: auto;
 }
