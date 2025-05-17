@@ -12,7 +12,7 @@
   min-height: 100vh;
   display: block;
   overflow: hidden;
-  background-image: url('././images/Leafy.png') no-repeat center center fixed;
+  /* background-image: url('././images/Leafy.png') no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,10 +24,11 @@ section {
   padding: 0px;
   margin: 0px auto;
   width: 80%;
+  height: auto;
   max-width: 1366px;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('././images/Leafy.png') no-repeat center center fixed;
+  background-image: url('././images/Leafy.png') no-repeat no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
