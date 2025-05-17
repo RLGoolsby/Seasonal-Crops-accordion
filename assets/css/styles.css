@@ -12,7 +12,22 @@
   min-height: 100vh;
   display: block;
   overflow: hidden;
-  background: url('../../images/ Leafy Greens_remix_01jtvcw0zqe6dbch4k75s39jcz.png') no-repeat center center fixed;
+  background: url('../images/Leafy.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section {
+  display: block;
+  padding: 0px;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1366px;
+  min-width: 320px;
+  min-height: 100vh;
+  background: url('../images/Leafy.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
