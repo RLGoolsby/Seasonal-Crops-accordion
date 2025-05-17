@@ -12,7 +12,11 @@
   min-height: 100vh;
   display: block;
   overflow: hidden;
-  background-image: url('https://github.com/RLGoolsby/Seasonal-Crops-accordion/blob/fbaf7307f98cb299b9006856c888db1b0ac7b6f0/images/20250509_1649_Fresh%20Leafy%20Greens_remix_01jtvcw0zqe6dbch4k75s39jcz.png');
+  background: url('/assets/css/images/ Leafy Greens_remix_01jtvcw0zqe6dbch4k75s39jcz.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
