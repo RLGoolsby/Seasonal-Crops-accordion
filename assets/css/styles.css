@@ -60,7 +60,6 @@
 .overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 35, 82, 0.2);
   position: absolute;
   top: 0;
   left: 0;
@@ -192,11 +191,7 @@ ul {
 
 .example-img-wrapper {
   display: contents;
-  position: relative;
-  width: 700px;
-  height: 600px;
-  overflow: hidden;
-  margin: auto;
+
 }
 
 
@@ -250,6 +245,9 @@ li.crop-box {
 
 
 .inner {
+  width: 100%;
+  height: 500px;
+  position: relative;
   padding-bottom: 0.3em;
   overflow: hidden;
   display: none;
