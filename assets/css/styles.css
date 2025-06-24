@@ -51,7 +51,7 @@
 
 .example-img {
   width: 100%;
-  position: relative;
+  /* position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -59,7 +59,7 @@
   z-index: 99;
   margin: auto;
   max-width: 100%;
-  height: auto;
+  height: auto; */
   object-fit: contain;
 }
 
@@ -200,7 +200,7 @@ ul {
 
 .example-img-wrapper {
   width: 100%;
-  height: auto;
+  height: 500px;
   margin: auto;
 }
 
