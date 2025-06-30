@@ -252,6 +252,7 @@ li.crop-box {
 
 
 .inner {
+  display: none;
   width: 100%;
   height: auto;
   min-height: 100vh;
@@ -321,7 +322,7 @@ span.season-icon {
 
   .inner {
     padding: 10px 0;
-    overflow: inherit;
+    /* overflow: inherit; */
   }
 }
 
