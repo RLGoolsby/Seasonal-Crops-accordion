@@ -73,6 +73,7 @@
   bottom: 0%;
   z-index: 999;
   margin: auto;
+  transform: translate(0px, 50px);
 }
 
 a {
