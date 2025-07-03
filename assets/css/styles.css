@@ -23,20 +23,15 @@
 
 .accordion-wrapper {
   background-color: lightskyblue;
-  /* padding: 40px;
-  margin-bottom: 20px;
-  margin-top: 75px;
-  opacity: 0.7; */
 }
 
-section.season-description-wrapper {
+.season-description-wrapper {
   background-color: #0606065e;
 }
 
 .crop-grid {
   position: relative;
   display: flex;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-gap: 1%;
   margin: auto;
   padding: 0;
@@ -47,23 +42,11 @@ section.season-description-wrapper {
   flex-wrap: nowrap;
 }
 
-/* .example-img {
-  width: 100%;
-  height: auto;
-  margin: 0px auto;
-} */
-
 .example-img {
   width: 100%;
-  /* position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
+  height: auto;
+  max-height: 500px;
   margin: auto;
-  max-width: 100%;
-  height: auto; */
   object-fit: contain;
 }
 
@@ -258,7 +241,6 @@ li.crop-box {
 }
 
 
-
 .inner {
   display: none;
   width: 100%;
@@ -276,7 +258,6 @@ li.crop-box {
   position: relative;
   display: block;
   color: #000;
-  /* border-bottom: 3px solid gray; */
   padding: 20px 40px;
   border-radius: 0.15em;
   font-weight: 500;
@@ -289,22 +270,6 @@ li.crop-box {
   border-left: 2px outset #adacac85;
 }
 
-/* .accordion:hover {
-  color: green;
-  font-weight: 500;
-} */
-
-/* .accordion:after {
-  content: "\2192";
-  font-weight: bold;
-  float: left;
-  margin-right: 24px;
-  color: #000;
-} */
-
-/* .accordion.active:after {
-  content: "\25be";
-} */
 
 span.season-icon {
   float: right;
@@ -337,11 +302,6 @@ footer.footer {
     background: white;
     min-width: 320px;
     min-height: 100vh;
-  }
-
-  .inner {
-    /* padding: 10px 0; */
-    /* overflow: inherit; */
   }
 }
 
