@@ -307,6 +307,17 @@ span.season-icon {
   color: #000;
 }
 
+footer.footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
 
 /********************************************/
 /* media query for mobile */
@@ -325,7 +336,7 @@ span.season-icon {
   }
 
   .inner {
-    padding: 10px 0;
+    /* padding: 10px 0; */
     /* overflow: inherit; */
   }
 }
