@@ -29,6 +29,10 @@
   opacity: 0.7; */
 }
 
+section.season-description-wrapper {
+  background-color: #0606065e;
+}
+
 .crop-grid {
   position: relative;
   display: flex;
